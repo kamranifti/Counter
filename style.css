@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(250, 150, 224) !important;
+}
+.main{
+    background-color: rgb(73, 124, 158);
+    padding: 50px;
+   border-top-left-radius: 50%;
+   border-top-right-radius: 50%;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.nums{
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.decree{
+    background-color: rgb(235, 106, 106);
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 9px;
+    color: aliceblue;
+    font-weight: 700;
+}
+.incree{
+    background-color: rgb(83, 193, 83);
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 9px;
+    color: aliceblue;
+    font-weight: 700;
+} 
+.reset{
+    background-color: rgb(95, 158, 183);
+    width: 100px;
+    height: 50px;
+    border: none; 
+    border-radius: 30%;
+    font-weight: 700;
+}
+.reset:active{
+    background-color: rgb(166, 163, 74);
+    width: 100px;
+    height: 50px;
+    border: none; 
+}
+.incree:active{
+    background-color: rgb(13, 231, 100);
+    width: 70px;
+    height: 40px;
+    border: none;
+} 
+.decree:active{
+    background-color: rgb(235, 16, 78);
+    width: 70px;
+    height: 40px;
+    border: none;
+}
